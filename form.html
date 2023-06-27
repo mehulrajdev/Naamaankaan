@@ -1,0 +1,112 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./css/form.css">
+    
+    
+    
+    
+    <title>Registration Form </title>
+</head>
+<body>
+
+   
+   
+    
+   
+    <div class="container">
+        <header>
+            <h1 id="title"></h1>
+            <p id="description"></p>
+        </header>
+        <form id="survey-form" action="https://formspree.io/f/xqkolrrp" method="POST">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input 
+                    type="text" 
+                    name="name" 
+                    id="name"
+                    class="form-control"
+                    placeholder="Enter your name"
+                    required
+                />
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input 
+                    type="email" 
+                    name="email" 
+                    id="email"
+                    class="form-control"
+                    placeholder="Enter your email"
+                    required
+                />
+            </div>
+            <div class="form-group">
+                <label for="number">Number</label>
+                <input 
+                type="tel" 
+                id="number" 
+                name="number" 
+                class="form-control"
+                placeholder="+91 0123456789"
+                required
+                />
+            </div>
+            <div class="form-group">
+                <label for="stream">Stream</label>
+                <input 
+                    type="text" 
+                    name="Stream" 
+                    id="name"
+                    class="form-control"
+                    placeholder="Enter your Stream"
+                    required
+                />
+            </div>
+            <div class="form-group">
+                <label for="count">Prefered Country</label>
+                <select id="dropdown" name="country" 
+                class="form-control" 
+                required
+                >
+                    <option disabled selected value>Select </option>
+                    <option value="UK">UK</option>
+                    <option value="London">London</option>
+                    <option value="Dubai">Dubai</option>
+                    <option value="USA">USA </option>
+                    <option value="Russia">Russia</option>
+                    <option value="China">China</option>
+                    <option value="Germany">Germany</option>
+                    <option value="Poland">Poland</option>
+                    <option value="Turkey">Turkey</option>
+                    <option value="Kyrgyzstan">Kyrgyzstan</option>
+                    <option value="Belarus">Belarus</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Armenia">Armenia</option>
+                    <option value="Malaysia">Malaysia</option>
+                    <option value="Georgia">Georgia</option>
+                    <option value="India">India</option>
+
+
+                </select>
+            </div>
+        
+        
+            
+            <div class="form-group" >
+                <label for="comment" >Would you like to share any additional information ?</label>
+                <textarea id="comment" class="input-textarea" name="comment" placeholder="Enter your comment here...Enter N/A if you don't want to share additional information" required></textarea>
+            </div>
+            
+            <div class="form-group">
+                <button type="submit" id="submit" class="submit-button" style="color: #0209e5;">Submit</button>
+                
+            </div>
+        </form>
+    </div>
+</body>
+</html>

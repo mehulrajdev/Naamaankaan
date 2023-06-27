@@ -1,0 +1,72 @@
+.com-sp {
+    padding: 40px 0;
+}
+
+.container .row {
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+}
+
+.work-process {
+    position: relative;
+    text-align: center;
+    margin-top: 60px;
+}
+.process-img {
+    width: 110px;
+    height: 110px;
+    margin: 15px auto 0;
+    display: inline-block;
+}
+.img-responsive{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+span.process-num {
+    position: absolute;
+    font-size: 60px;
+    font-weight: 600;
+    opacity: .1;
+    left: 97px;
+    top: -10px;
+}
+
+.work-process h4 {
+    margin: 10px 0;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.how-it-works p {
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 500;
+    margin: 0 0 10px;
+}
+
+.how-it-works{
+    width: 88%;
+}
+
+.future {
+    background: url(../asset/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body > section.future > div > div > div > div{
+    padding: 12px;
+}
+
+.ul{
+    display: flex;
+}
+
+.ul a{
+    text-decoration: none;
+    color: red;
+}

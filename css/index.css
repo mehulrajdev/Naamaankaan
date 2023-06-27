@@ -1,0 +1,394 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    font-family:'Times New Roman', Times, serif
+}
+
+#blink{
+     
+        animation: blinker 1.5s linear infinite;
+        color: red;
+        font-family: sans-serif;
+    
+    
+}
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 100px;
+    background-color: rgb(240, 234, 234);
+}
+
+
+.naam{
+    font-size: 22px;
+    color: rgb(72, 191, 231);
+}
+
+.nav-items{
+    display: flex;
+    list-style: none;    
+}
+
+.nav-items li {
+    margin: 0 20px;
+}
+.nav-items li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.nav-items li a:hover{
+    color: rgb(226, 156, 27);
+}
+
+.nav-form {
+    cursor: pointer;
+    font-size: 18px !important;
+    margin-left: 18px;
+}
+
+.nav-form a{
+    text-decoration: none;
+    color: red;
+}
+
+.row{
+    text-align: center;
+    padding: 24px;
+}
+.text-center{
+    font-size: 16px;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    padding-bottom: 40px;
+    background-color: rgb(240, 234, 234);
+}
+
+.left{
+    margin-left: 100px;
+    width: 55%;
+}
+
+
+.left button{
+    padding: 8px 20px;
+
+}
+
+.right{
+    position: relative;
+    width: 45%;
+    margin-right: 75px;
+}
+
+.right img{
+    width: 100%;
+    height: 420px;
+}
+
+.left h1{
+    font-size: 50px;
+}
+
+.left p{
+    width: 65%;
+    margin: 12px 0px;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 7px 15px;
+    text-decoration: none;
+    color: antiquewhite;
+    position: relative;
+    margin-right: 10px;
+}
+
+.btn span {
+      position: relative;
+      z-index: 5;
+}
+    
+.btn:after {
+      content: '';
+      background: brown;
+      position: absolute;
+      top: 0;right: 0;bottom: 0;
+      left: 3px;border-radius: 3px;
+      border-width: 3px 3px 3px 0;
+      transform: skewX(-20deg);
+      box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+  
+.btn:before {
+      content: '';
+      position: absolute;
+      top: 0;left: -2px;bottom: 0;
+      border-radius: 3px;
+      width: 17px;
+      border-width: 3px 0 3px 3px;
+      background: brown;
+      z-index: 8;
+}
+
+
+.btn2 {
+    display: inline-block;
+    padding: 7px 8px 7px 15px;
+    text-decoration: none;
+    color: antiquewhite;
+    position: relative;
+    margin-right: 20px;
+}
+
+.btn2 span {
+      position: relative;
+      z-index: 5;
+}
+    
+.btn2:after {
+      content: '';
+      background: black;
+      position: absolute;
+      top: 0;right: 0;bottom: 0;left: 0;
+      border-radius: 3px;
+      border-width: 3px 3px 3px 0;
+      transform: skewX(-20deg);
+      box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+  
+.btn2:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: -9px;
+      bottom: 0;
+      width: 17px;
+      border-radius: 3px;
+      border-width: 3px 0 3px 3px;
+      background: black;
+      z-index: 8;
+}
+
+.companies{
+    padding: 20px 95px;
+}
+
+.logo{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.logo img{
+    width: 110px;
+}
+
+.con-title h2{
+    padding: 8px;
+    text-align: center;
+}
+
+.pop-cour{
+    padding: 52px;
+}
+/*
+.bgimg{
+    background: url(../asset/bg.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: cover;
+}
+*/
+.com-sp{
+    padding: 60px 0;
+}
+
+.con-title{
+    text-align: center;
+    margin-bottom: 24px;
+}
+.con-title h2 {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    line-height: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.con-title h2 span {
+    font-size: 27px;
+    font-weight: 600;
+    color: #005080;
+    line-height: 40px;
+}
+.con-title p {
+    font-size: 14px;
+    color: #333;
+}
+.ed-advan ul {    
+    padding-left: 0;    
+    list-style-type: none;    
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.about-sp ul li {
+    display: block;
+    line-height: 35px;
+    font-size: 14px;
+    color: #555;
+}
+
+
+.ed-ad-img img {
+    width: 50px;
+    opacity: .8;
+}
+
+
+
+
+#latest-products {
+    width: 60%;
+    margin: 50px auto;
+  }
+  
+  #latest-products ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 80px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .flag {
+    overflow: hidden;
+    transition: transform 2s ease-out 1s;
+  }
+  
+  .flag img {
+    width: 100%;
+    height: 80px;
+    object-fit: cover;
+    list-style: none;
+  }
+  
+  .flag-content {
+    text-align: center;
+    padding: 12px;
+  }
+  
+  .flag-items h2 {
+    margin: 0 0 1rem 0;
+  }
+
+
+  .flag-items:hover {
+    transform: scale(1.2);
+  }
+
+
+  .col-md-12{
+    font-size: 15px;
+    color: #636363;
+    font-weight: 400;
+    line-height: 35px;
+    padding-bottom: 12px
+  }
+
+
+
+/***************** form designing ***********************/
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0px;
+}
+
+.form h3{
+    font-size: 50px;
+}
+
+.form p{
+    font-size: 18px;
+    padding: 8px 0px;
+}
+
+.form-group input{
+    width: 260px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.form-group a{
+    position: relative;
+    cursor: pointer;
+    border-radius: 0px 10px 10px 0px;
+    background-color: black;
+    padding: 14px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    margin-left: -16px;
+    top: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+input::placeholder{
+    padding-left: 12px;
+}
+
+footer{
+    background-color: #e0ddda;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 25px;
+    padding: 30px 100px;
+}
+
+.col h3{
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.col p{
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.col p:hover{
+    color: brown;
+}
+
+.col p i{
+    margin-right: 7px;
+}
+
+.col a{
+    text-decoration: none;
+    
+}
